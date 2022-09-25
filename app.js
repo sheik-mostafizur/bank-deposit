@@ -40,7 +40,7 @@ function handleSubmit(bankId, bankPass) {
       bankPass.classList.add("is-invalid");
       userPassFeedBack.innerText = "Please provide your password";
       return false;
-    } else if (userPass.length < 8) {
+    } else if (userPass.length < 6) {
       bankPass.classList.add("is-invalid");
       userPassFeedBack.innerText = "At least provide the password id 6 digits";
       return false;
