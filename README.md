@@ -1,5 +1,5 @@
 # bank-deposit
 
 
-##login
-##deposit withdraw mainBalance
+## login
+## deposit withdraw mainBalance
